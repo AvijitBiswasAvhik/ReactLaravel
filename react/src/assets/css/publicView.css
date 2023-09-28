@@ -1,0 +1,79 @@
+.load-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+@keyframes loading {
+   0%{transform: translateX(-100px);} 
+   50%{transform: translateX(100px);}
+   100%{transform: translateX(-100px)}
+   
+
+}
+.loading{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    z-index: 1;
+    height: 18px;
+    width: 80px;
+    background-color: rgb(60, 165, 0);
+    border-radius: 20px;
+    animation: loading 8s ease-in  infinite;
+    box-shadow: 2px 2px 8px rgba(121, 99, 0, 0.74);
+
+}
+@keyframes small {
+    0%{transform: translateX(-35px);} 
+    50%{transform: translateX(35px);}
+    100%{transform: translateX(-35px)}
+    
+ 
+ }
+ @keyframes rotate {
+    0%{transform: rotate(0deg);} 
+   
+    100%{transform: rotate(360deg)}
+    
+ 
+ }
+.small{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+
+    box-shadow: 1px 1px 4px rgb(53, 53, 53);
+    
+    animation: small 2s linear infinite;
+   
+}
+.small::before{
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background: linear-gradient(0deg, transparent,  transparent, rgb(158, 0, 0), red );
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+}
+
+.dot{
+    position: absolute;
+    transform: translateX(7px);
+    height: 5px;
+    width: 5px;
+    background-color: rgb(251, 255, 0);
+    border-radius: 50%;
+    z-index: 100;
+}
+.image{
+    max-height: 500px;
+}

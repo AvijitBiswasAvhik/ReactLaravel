@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+.containers{
+    height: 100vh;
+    width :100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container{
+    
+}
+.form-section{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid grey;
+    margin-top: -100px;
+}
+.form-section .login-header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-header .img{
+    background-image: url("https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png"); 
+    background-position: 0px -52px; 
+    background-size: auto; 
+    width: 175px; 
+    height: 51px; 
+    background-repeat: no-repeat; 
+    display: inline-block;
+}
+
+
+/* degine input field*/
+.login-section .input-field{
+    width: 100%; 
+    font-size: small;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 40px;
+    outline: none;
+}
+
+.login-section .button{
+    width:100%;
+    background-color: #4BB4F8;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    font-weight: 700;
+    color:aliceblue;
+    letter-spacing: .05rem;
+}
+.middle-row{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.middle-row .line{
+    width: 50%;
+    height: 1px;
+    background-color: rgb(194, 192, 192);
+}
+.middle-row .text{
+    width: 15%;
+    text-align: center;
+    color: grey;
+}
+/* footer degine */
+.footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.footer a{
+    text-decoration: none;
+    font-size: small;
+    color: black !important;
+}
+.singup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    height: 80px;
+    font-size: 16px;
+}
+.singup-section a{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+@media screen  and (max-width: 500px) {
+    .form-section{
+        border: none;
+        
+    }
+}

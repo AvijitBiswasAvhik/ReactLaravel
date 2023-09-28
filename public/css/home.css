@@ -1,0 +1,93 @@
+/*style profile image*/
+.profile-img{
+    display: flex;
+    height: 200px;
+    background-image: url(/image/pngaaa.com-1574817.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+.profile-img .image-contain{
+    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid rgb(46, 0, 212);
+    box-shadow: 2px 2px 2px grey;
+    object-fit: cover;
+}
+.profile-img .img{
+    max-width: 100%;
+
+}
+
+/*style ptofile-content section*/
+.profile-content{
+    padding: 20px;
+}
+.profile-content .profile-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.profile-footer .description{
+    text-align: center;
+    margin-top: 10px;
+}
+.profile-footer .inform{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+@media screen and (min-width: 580px) {
+    .profile-content{
+        padding: 0px;
+    }
+    .profile-content .profile-header{
+        justify-content: left;
+    }
+    .profile-footer .description{
+        text-align: left;
+
+    }
+    .profile-footer .inform{
+        justify-content: flex-start;
+        gap: 20px;
+    }
+}
+/* profile footer */
+
+/* styles post section */
+.create-post a{
+    text-decoration: none;
+}
+.create-post a button{
+    background-color: #E88308;
+    border: none;
+    font-size: .9rem;
+    border-radius: 3px;
+    padding: 0px 5px 0px 3px;
+    font-weight: 700;
+    color: rgb(18, 0, 177);
+    letter-spacing: .8px;
+    width: 75px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.create-post a button span{
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+

@@ -1,0 +1,48 @@
+.add-button{
+    width: 90px;
+    border: none !important;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.add-icon{
+    width: 30px;
+}
+.question-title{
+    font-weight: bold;
+}
+.add-button-2{
+    width: 60px;
+    border: none !important;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    align-items: center;
+    
+}
+.add-icon-2{
+    width: 25px;
+}
+
+.delete-button{
+    width: 75px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(212, 67, 67);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    align-items: center;
+    border: 1px solid rgb(212, 67, 67);
+}
+.trash-icon{
+    width: 25px;
+}
+.add-delete-btn{
+    gap:10px
+}

@@ -1,0 +1,95 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "image_url": "https://storage.prompt-hunt.workers.dev/9bdb36fe-f1ab-490c-bf2f-7d4d191b5e96",
+        "title": "Sample Title 1",
+        "slug": "sample-title-1",
+        "status": true,
+        "description": "This is a sample description for item 1. It should not exceed 100 words.",
+        "created_at": "2023-08-04T10:00:00Z",
+        "updated_at": "2023-08-04T14:30:00Z",
+        "expire_date": "2023-12-31",
+        "questions": [
+          {
+            "id": 101,
+            "type": "multiple_choice",
+            "description": "What is the capital of France?"
+          },
+          {
+            "id": 102,
+            "type": "short_answer",
+            "description": "Name a primary color."
+          },
+          {
+            "id": 103,
+            "type": "true_false",
+            "description": "Is the Earth round?"
+          }
+        ],
+        "vote": {
+          "uuid": "a1b2c3d4e5",
+          "options": [
+            {
+              "uuid": "q1w2e3r4t5",
+              "text": "Python"
+            },
+            {
+              "uuid": "y7u8i9o0p1",
+              "text": "JavaScript"
+            },
+            {
+              "uuid": "m2n3b4v5c6",
+              "text": "Java"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "image_url":"https://i0.wp.com/hindupad.com/wp-content/uploads/2013/08/Lord-Krishna-in-child-form-2.jpg?fit=314%2C400&ssl=1 ",
+        "title": "Sample Title 2",
+        "slug": "sample-title-2",
+        "status": false,
+        "description": "Another sample description for item 2. Limited to 100 words.",
+        "created_at": "2023-08-03T15:45:00Z",
+        "updated_at": "2023-08-04T12:15:00Z",
+        "expire_date": "2023-11-15",
+        "questions": [
+          {
+            "id": 104,
+            "type": "multiple_choice",
+            "description": "Which planet is known as the Red Planet?"
+          },
+          {
+            "id": 105,
+            "type": "short_answer",
+            "description": "What is the chemical symbol for water?"
+          },
+          {
+            "id": 106,
+            "type": "true_false",
+            "description": "Is the sun a star?"
+          }
+        ],
+        "vote": {
+          "uuid": "z9x8c7v6b5",
+          "options": [
+            {
+              "uuid": "a1s2d3f4g5",
+              "text": "C++"
+            },
+            {
+              "uuid": "h6j7k8l9m0",
+              "text": "Ruby"
+            },
+            {
+              "uuid": "q2w3e4r5t6",
+              "text": "Swift"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
